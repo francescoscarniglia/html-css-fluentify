@@ -71,7 +71,7 @@ h2.big {
 /* stile menù */
 .menu-inline {
   list-style: none;
-  color: #fff; /* ho un <li> che non è <a> ovvero "Diventa tutor"  */
+  
 }
 
 .menu-inline li {

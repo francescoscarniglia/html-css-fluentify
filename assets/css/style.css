@@ -166,6 +166,8 @@ h2.big {
   width: calc(100%/3);
 }
 
+
+
 /* sezioni e stile dei loro contenuti */
 
 #banner-efficenza {
@@ -227,12 +229,22 @@ h2.big {
   padding: 40px 8%;
 }
 
+.pd:nth-child(1) {
+  padding: 0px 10px;
+}
+
+.pd:nth-child(2) {
+  padding: 0px 40px;
+}
+
 select#scelte {
     background: none;
     border: none;
     border-bottom: 1px solid gray;
 
 }
+
+
 
 
 /* Help */

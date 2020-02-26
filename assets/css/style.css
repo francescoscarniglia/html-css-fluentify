@@ -227,6 +227,7 @@ h2.big {
   width: 100%;
   background: #d3d3d3;
   padding: 40px 8%;
+  height: 160px;
 }
 
 .pd:nth-child(1) {
@@ -239,13 +240,12 @@ h2.big {
 
 select#scelte {
     background: none;
-    border: none;
-    border-bottom: 1px solid gray;
+    border-radius: none;
+    padding-left: 10px;
+    padding-right: 15px;
+
 
 }
-
-
-
 
 /* Help */
 #help {

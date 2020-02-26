@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:#000;
+  margin-bottom: 10px;
+}
+
+h2.big {
+  font-size: 250%;
+}
+/* Header */
+#main-header {
+  height: 600px;
+  background-color:#093259;
+  background-image: url('../img/background-header.png');
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+}
+
+/* blocchi dell'header */
+.header-nav {
+    height: 80px;
+    font-size: 80%;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.header-nav .header-logo {
+  width: 15%;
+}
+
+.header-nav .header-nav-center {
+  width: 45%;
+}
+
+.header-nav .header-nav-right {
+    width: 40%;
+    text-align: right;
+}
+
+/* stile logo  */
+.header-nav .header-logo {
+  width: 15%;
+}
+
+.header-nav .header-logo img {
+  margin-top: 16px;
+}
+
+/* stile menù */
+.menu-inline {
+  list-style: none;
+  color: #fff; /* ho un <li> che non è <a> ovvero "Diventa tutor"  */
+
+}
+
+.menu-inline li {
+  display: inline;
+  padding: 0 10px;
+}
+
+/* stile link menù */
+.menu-inline a {
+  color:rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+.menu-inline a:hover,
+.menu-inline a:active,
+.menu-inline a:focus {
+  color:rgba(255,255,255,.8);
+}
+
+/* bottoni */
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-i {
+  padding: 5px 25px;
+}
+
+.btn-g {
+  padding:5px 35px;
+  background-color: rgba(123,187,0,1);
+}
+
+.btn-g:hover {
+  background-color: rgba(123,187,0,.8);
+}
+
+.btn-big {
+  padding: 20px;
+}
+
+/* jumbotron */
+.jumbotron {
+  position: relative;
+  height: 480px;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1 {
+  margin-bottom: 30px;
+  font-size: 350%;
+  color: #fff;
+}
+
+
+/* Utilities */
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.float-l {
+  float: left;
+}
+
+.clearfix::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.w-50 {
+  width: 50%;
+}
+.t-align-dx {
+  text-align: right;
+}
+
+.col-3 {
+  width: calc(100%/3);
+}
+
+/* sezioni e stile dei loro contenuti */
+
+#banner-efficenza {
+  width: 100%;
+  background: #d3d3d3;
+  text-align: center;
+  padding: 40px 8%;
+}
+
+#banner-efficenza {
+  font-size: 130%;
+}
+
+#informazioni {
+  margin: 0 1%;
+  padding: 40px 0px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.img-info {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.info-title {
+  color: #7bbb00;
+  position: relative;
+  font-size: 180%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  font-size: 120%;
+  line-height: 150%;
+}
+
+.info-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20%;
+    height: 1px;
+    transform: translateX(-50%);
+    background: gray;
+}
+
+#piano-personalizzato {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+#scegli-piano {
+  width: 100%;
+  background: #d3d3d3;
+  padding: 40px 8%;
+}
+
+select#scelte {
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+
+
+/* Help */
+#help {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+}
+#help a {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(123,187,0,1);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+}
+
+#help a:hover,
+#help a:active,
+#help a:focus  {
+  background-color: rgba(123,187,0,.8);
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Html-css-fluentify | Francesco Scarniglia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header id="main-header">
+
+      <!-- container (classe che utilizzerò più volte nella pagina)-->
+      <div class="container">
+
+          <!-- Top nav -->
+          <div class="header-nav clearfix">
+
+          <!-- logo -->
+          <div class="header-logo float-l">
+            <img src="assets/img/logo.svg" alt="logo">
+          </div>
+          <!-- fine logo -->
+
+          <!-- navigazione centrale-->
+          <div class="header-nav-center float-l">
+
+            <!-- lista delle voci di menù centrale -->
+            <nav>
+              <ul class="menu-inline">
+                <li><a href="#">Il metodo</a></li>
+                <li><a href="#">La tecnologia</a></li>
+                <li> <a href="#">Real-life english</a></li>
+                <li><a href="#">Soluzioni aziendali</a></li>
+              </ul>
+            </nav><!-- fine lista voci menù centrale-->
+          </div> <!-- fine navigazione centrale -->
+
+          <!-- navigazione dx -->
+          <div class="header-nav-right float-l">
+            <!-- lista delle voci di menù destra -->
+            <nav>
+              <ul class="menu-inline">
+                <li>Diventa tutor</li>
+                <li><a href="#" class="btn btn-i">Login</a></li>
+                <li> <a href="#" class="btn btn-g">Struttura un piano</a></li>
+              </ul>
+            </nav><!-- fine lista voci menù centrale-->
+          </div><!-- fine navigazione dx -->
+        </div> <!-- fine top nav  header-nav -->
+
+        <!-- definisco il contenitore del mio testo -->
+        <div class="jumbotron">
+          <!-- inserisco il testo in un div per posizionarlo correttamente-->
+          <div class="jumbotron-text w-50">
+            <h1>Scegli l'inglese studiato per i professionisti</h1>
+            <a href="#" class="btn btn-g btn-big">Struttura un piano</a>
+          </div><!-- fine jumbotron-text -->
+        </div><!-- fine jumbotron -->
+
+      </div> <!-- fine container -->
+    </header> <!-- fine header -->
+
+    <main>
+
+      <!-- banner efficenza -->
+      <section id="banner-efficenza">
+          <h2>Le scuole di lingua tradizionali non sono efficaci</h2>
+          <p>Solo un corso incentrato sulla Fluency può portare ad una soluzione definitiva concreta.</p>
+      </section><!-- fine banner-efficienza -->
+
+      <!-- 3 blocchi informazioni -->
+      <section id="informazioni">
+          <div class="container clearfix">
+
+            <div class="col-3 float-l">
+              <img src="assets/img/computer.svg" alt="computer" class="img-info">
+              <h2 class="info-title">Piano formativo configurato sul proprio livello</h2>
+              <p class="info-text">Un metodo improntato sullo speaking con percorsi basati
+                esattamente sulle esigenze personali dei partecipanti. Tutto parte da un accurato
+                test di partenza per definire il livello e impostare gli obiettivi da raggiungere.
+              </p>
+            </div>
+
+            <div class="col-3 float-l">
+              <img src="assets/img/profile.svg" alt="computer" class="img-info">
+              <h2 class="info-title">Piano formativo configurato sul proprio livello</h2>
+              <p class="info-text">Un metodo improntato sullo speaking con percorsi basati
+                esattamente sulle esigenze personali dei partecipanti. Tutto parte da un accurato
+                test di partenza per definire il livello e impostare gli obiettivi da raggiungere.
+              </p>
+            </div>
+
+            <div class="col-3 float-l">
+              <img src="assets/img/doc.svg" alt="computer" class="img-info">
+              <h2 class="info-title">Piano formativo configurato sul proprio livello</h2>
+              <p class="info-text">Un metodo improntato sullo speaking con percorsi basati
+                esattamente sulle esigenze personali dei partecipanti. Tutto parte da un accurato
+                test di partenza per definire il livello e impostare gli obiettivi da raggiungere.
+              </p>
+            </div>
+
+        </div><!-- container -->
+      </section><!-- fine 3 blocchi informazioni -->
+
+      <!-- inizio piano personalizzato -->
+      <section id="piano-personalizzato" class="clearfix">
+         <div class="w-50 float-l">
+           <img src="assets/img/mountain.svg" alt="montain">
+         </div>
+         <div class="w-50 float-l"></div>
+         <h2 class="big">Scopri il tuo livello iniziale e struttura un piano personalizzato</h2>
+         <p class="info-text">L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.</p>
+         <a href="#"> Scopri il nostro test di placement</a>
+      </section><!-- fine piano personalizzato -->
+
+      <!-- scegli piano -->
+      <section id="scegli-piano" class="clearfix">
+        <div class="w-50 float-l">
+          <h2>Struttura un piano</h2>
+        </div>
+
+        <div class="w-50 float-l t-align-dx">
+          <label for="scelte">sono:</label>
+            <select id="scelte">
+              <option value="vuoto">Seleziona</option>
+              <option value="studente">Studente</option>
+              <option value="lavoratore">Lavoratore</option>
+            </select>
+          <a href="#" class="btn btn-g btn-big">Visualizza il tuo piano</a>
+        </div>
+      </section><!-- fine scegli piano -->
+    </main>
+
+    <footer>
+
+      <div id="help">
+        <a href="#">Help</a>
+      </div>
+
+    </footer>
+
+
+
+  </body>
+</html>

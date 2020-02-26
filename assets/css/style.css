@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&display=swap');
 
+/* Regole generali */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +8,6 @@
 }
 
 body {
-
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color:gray;
@@ -26,6 +26,8 @@ h6 {
 h2.big {
   font-size: 250%;
 }
+
+
 /* Header */
 #main-header {
   height: 600px;
@@ -70,7 +72,6 @@ h2.big {
 .menu-inline {
   list-style: none;
   color: #fff; /* ho un <li> che non è <a> ovvero "Diventa tutor"  */
-
 }
 
 .menu-inline li {
@@ -142,7 +143,6 @@ h2.big {
 .container {
   width: 80%;
   margin: 0 auto;
-
 }
 
 .float-l {
@@ -165,7 +165,6 @@ h2.big {
 .col-3 {
   width: calc(100%/3);
 }
-
 
 
 /* sezioni e stile dei loro contenuti */
@@ -243,8 +242,6 @@ select#scelte {
     border-radius: none;
     padding-left: 10px;
     padding-right: 15px;
-
-
 }
 
 /* Help */
@@ -253,6 +250,7 @@ select#scelte {
   bottom: 0;
   right: 15%;
 }
+
 #help a {
   display: inline-block;
   padding: 10px;
